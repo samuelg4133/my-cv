@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 
 import "./styles/global.css";
 import "./app.css";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Sidebar />
         <Main />
       </div>
+      <Footer />
     </>
   );
 };

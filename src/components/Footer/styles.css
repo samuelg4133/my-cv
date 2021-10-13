@@ -1,0 +1,13 @@
+footer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--blue-800);
+}
+
+footer a{
+  text-decoration: none;
+  color: var(--orange-500);
+}
