@@ -1,0 +1,89 @@
+.skills-container{
+  width: 100%;
+  max-width: 720px;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  color: var(--blue-800);
+}
+.skills-container .skills-header div{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.skills-container .skills-header div h3{
+  margin-left: 0.5rem;
+}
+
+
+.skills-container .skills-header hr{
+  border: 1px solid var(--blue-800);
+}
+
+.skills-container .tags{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0.5rem 0;
+}
+
+.skills-container .tags .tag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.skills-container .tags .pri{
+  background: var(--greenish-blue-500);
+}
+
+.skills-container .tags .sec{
+  background: var(--greenish-blue-400);
+}
+
+.skills-container .tags .thi{
+  background: var(--greenish-blue-300);
+}
+.skills-container .tags .low{
+  background: var(--yellow-500);
+}
+
+.skills-container .tags .tag p{
+  font-weight: 700;
+  text-align: center;
+}
+
+#legend{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+#legend div{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 0.25rem;
+}
+
+#legend div.pri{
+  background-color: var(--greenish-blue-500);
+}
+#legend div.sec{
+  background-color: var(--greenish-blue-400);
+}
+#legend div.thi{
+  background-color: var(--greenish-blue-300);
+}
+#legend div.low{
+  background-color: var(--yellow-500);
+}
+
+
+#legend p{
+  font-size: 0.5rem;
+}

@@ -1,0 +1,51 @@
+:root{
+  --blue-200: #4086ff;
+  --blue-300: #005eff;
+  --blue-500: #3a1cff;
+  --blue-800: #1f104f;
+  --greenish-blue-300: #7fffd4;
+  --greenish-blue-400: #20b2aa;
+  --greenish-blue-500: #006f6f;
+  --orange-500: #ffa500;
+  --yellow-500: #ffff00;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+@media(max-width: 1080px){
+  html{
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720px){
+  html{
+    font-size: 87.5%;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+  font-weight: 700;
+}
+
+button{
+  cursor: pointer;
+}
+
+[disabled]{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
